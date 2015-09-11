@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" ng-app="uai-news">
+<head>
+  <meta charset="UTF-8">
+  <title> {{ greet }} </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- styles -->
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <!-- endstyles -->
+
+  <!-- scripts -->
+  <script src="vendor/jquery/dist/jquery.js"></script>
+
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="vendor/angular-resource/angular-resource.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+  <!-- endscripts -->
+
+</head>
+<body ng-controller="MainController">
+
+<navbar></navbar>
+
+<section id="destacados">
+  <div class="container">
+    <div id="volanta">
+      Matías de Rose entrevista a Pablo Allende, nieto del presidente chileno.
+    </div>
+    <div id="titulo">
+      “En Chile existe una invisibilización hacia todo lo que fue el proceso de la Unidad Popular”
+    </div>
+    <div id="imagen">
+      <img src="images/noticias/allende/allende%20grande.jpg" width="100%" alt=""/>
+    </div>
+    <div id="descripcion">
+      Pablo Sepúlveda es hijo de Héctor Sepúlveda y Carmen Paz Alende, la segunda de las tres hijas de Hortensia Bussi y Salvador Allende, el ex presidente chileno. Reflexiona sobre las debilidades de la “vía chilena” al socialismo pero las identifica como enseñanzas para los procesos revolucionarios actuales.
+    </div>
+    <div id="cuerpo">
+      Pablo nació en septiembre del ´76 en México, producto del exilio de su familia, y se formó en La Habana, Cuba, donde primero estudió fisioterapia y después derivó a medicina, como su abuelo “Chicho”. Luego regresó a Chile, donde ejerció en un centro médico público de la ciudad de Coquimbo, al norte del país. Hoy trabaja y vive en Caracas, Venezuela.
+      Es el nieto que más se parece políticamente a Salvador, y en consecuencia un firme defensor del proyecto socialista en Latinoamérica. </br></br>
+
+
+      <p class="bold">
+        -¿Cómo creés que se recuerda a Salvador Allende en Chile?</p>
+      -Se lo sigue recordando con cariño y admiración. Su imagen no ha parado de renacer y crecer desde su muerte. Sigue inspirando a las nuevas generaciones y eso se pudo observar en las recientes luchas estudiantiles y populares, donde su figura se levantó nuevamente como un referente ético e ideológico. Fue un precursor en la posibilidad de realizar la revolución socialista de forma pacífica, ampliando la democracia formal y representativa hacia una económica y radical. </br></br>
+
+      <p class="bold">
+        -¿Existe un mecanismo de invisibilización de cierta parte de la ciudadanía o los ámbitos oficiales?</p>
+      -Sí, hacia todo lo que fue el proceso del Gobierno de la Unidad Popular. Es uno de los temas más ignorados en los medios de comunicación y en los ámbitos ofi ciales. Se habla mucho más de las atrocidades del golpe de Estado que de la experiencia de la Unidad Popular como construcción de una nueva sociedad más justa.
+      También hay una distorsión de la fi gura de Allende. Se ha tratado de vaciarlo de su contenido más radical y revolucionario, dejando la imagen de un simple socialdemócrata más que de un político profundamente revolucionario que luchó a lo largo de toda su vida y hasta el último momento por la construcción de una sociedad más justa. </br></br>
+
+      <p class="bold">
+        -Supongo que habrás crecido en un entorno en donde debatir la política era parte de lo cotidiano. ¿Qué recuerdos tenés de esas reflexiones?</p>
+      -Recuerdo charlas sobre la lucha contra la dictadura. Las anécdotas sobre mi abuelo eran generales, sobre todo referentes a su sentido del humor, lo bromista que era con sus amigos; sobre sus gustos personales, su profunda sensibilidad social y su infatigable capacidad de trabajo.
+      En relación al 11 de septiembre, el día del golpe de Estado, mi abuela “Tencha” siempre contaba cómo vivió ese trágico día en la Residencia Presidencial de Tomás Moro y cómo tuvo que salir gateando, entre las bombas y el humo, luego del bombardeo. </br></br>
+
+      <p class="bold">
+        -¿Ves similitudes entre la Revolución Bolivariana y la Unidad Popular? </p>
+      -Varias, más allá de los diferentes contextos históricos. La Unidad Popular fue el primer proceso que planteó la transformación de las bases estructurales de la economía capitalista por medios no violentos, realizando los cambios necesarios dentro del marco legal de una institucionalidad burguesa. La Revolución Bolivariana que impulsó Hugo Chávez retoma el camino de esa transformación de la sociedad por mismos cauces legales y democráticos pero también aprendiendo mucho de las debilidades que tuvo la ‘vía chilena al socialismo’, sobre todo en lo que refi ere a la necesaria defensa del proceso revolucionario. Chávez dijo varias veces: “Esta es una revolución pacífica pero no desarmada”.  </br></br>
+
+      <p class="bold">
+        -¿Y en los mecanismos destituyentes entre una época y la otra?</p>
+      -Hay semejanzas en las estrategias contrarrevolucionarias que han tratado de derrocar al proceso bolivariano con lo que pasó en Chile. Principalmente los golpes militares, aunque con distinto desenlace, debido a que las Fuerzas Armadas en Venezuela tienen mucha mayor conciencia de clase, identificadas históricamente con las clases sociales populares. No así en Chile, donde las Fuerzas Armadas han servido siempre a las castas políticas dominantes. Otra estrategia desestabilizadora que se ha repetido fue la guerra económica, con bloqueo económico, financiero y comercial, generando escasez a través del acaparamiento de productos, la especulación de precios y el sabotaje a la producción y la distribución. </br></br>
+
+      <p class="bold">
+        -¿Cómo ves a la izquierda chilena actual y qué opinás sobre los procesos sociales que se intensificaron a partir del movimiento estudiantil? </p>
+      -En Chile se llevan adelante muchas luchas importantes y emblemáticas, como la del pueblo Mapuche, la del movimiento estudiantil y otras construcciones a niveles locales. A pesar de sus grandes dolores, y también sus logros y avances, son luchas que se mantienen aún bastante dispersas, y me parece que hay que ir buscando convergencia hacia objetivos que respondan a las grandes y pequeñas demandas de la sociedad chilena, las cuales están afl orando cada vez con más fuerza y claridad. Creo que uno de los grandes logros, sobre todo del movimiento estudiantil, fue cuestionar el núcleo ideológico y cultural del modelo neoliberal, en el cual el sentido del lucro es parte fundamental de su hegemonía cultural. Al lograr deslegitimar el lucro se empieza a identifi car con más claridad quiénes y de qué formas nos han dominado históricamente, lo cual es fundamental para ir afi nando la puntería en las luchas que se vienen.
+    </div>
+  </div>
+</section>
+
+
+<!-- app scripts -->
+<script src="js/app.js"></script>
+
+<script src="js/modules/core/app.core.js"></script>
+<script src="js/modules/core/services/lb-services.js"></script>
+<script src="js/modules/core/controllers/MainController.js"></script>
+<script src="js/modules/core/config/cfg.js"></script>
+<script src="js/modules/core/config/routes.js"></script>
+<script src="js/modules/core/directives/navbar.js"></script>
+
+<script src="js/modules/news/app.news.js"></script>
+<script src="js/modules/news/controllers/NoticiasController.js"></script>
+<script src="js/modules/news/directives/newsblock.js"></script>
+
+<!-- endappscripts -->
+
+
+</body>
+</html>
+

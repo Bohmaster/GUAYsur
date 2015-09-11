@@ -1,0 +1,35 @@
+<div class="container" style="margin-top: 150px">
+
+  <div id="volanta" class="bold">
+    {{ noticia.volanta }}
+  </div>
+
+  <div id="titulo">
+    {{ noticia.titulo }}
+  </div>
+
+  <div id="imagen">
+    <img src="storage/images/{{ noticia.imagen_principal}}" width="100%" alt="">
+  </div>
+
+  <div id="descripcion">
+
+    {{ noticia.descripcion }}
+
+  </div>
+
+  <div id="cuerpo">
+
+    <p compile="{{ noticia.cuerpo }}"></p>
+
+  </div>
+
+  <a
+     socialshare
+     socialshare-provider="facebook"
+     socialshare-text="720kb angular-socialshare"
+     socialshare-url="http://">
+    Share me
+  </a>
+
+</div>

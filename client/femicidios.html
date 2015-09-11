@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" ng-app="uai-news">
+<head>
+  <meta charset="UTF-8">
+  <title> {{ greet }} </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- styles -->
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <!-- endstyles -->
+
+  <!-- scripts -->
+  <script src="vendor/jquery/dist/jquery.js"></script>
+
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="vendor/angular-resource/angular-resource.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+  <!-- endscripts -->
+
+</head>
+<body ng-controller="MainController">
+
+<navbar></navbar>
+
+<section id="destacados">
+  <div class="container">
+    <div id="volanta" class="bold">
+      Investigación de Cooperativa Nos.
+    </div>
+    <div id="titulo">
+      Femicidios de macho y policía
+    </div>
+    <div id="imagen">
+      <img src="images/noticias/femicidios/femi%20grand.jpg" width="100%" alt=""/>
+    </div>
+    <div id="descripcion">
+      Mujeres y humildes: doble chance de sufrir la violencia de las instituciones.
+    </div>
+    <div id="cuerpo">
+      “Mamá, el oficial Sánchez me amenaza, me dijo: ´a esa petisa Rosa Yamila Gauna le voy a hacer boleta´”, ella misma comentaba. Con 15 años, fue detenida en la casa de una amiga en el barrio Villa Cabello de Posadas, Misiones. Con un despliegue de patrulleros de la comisaria 7ma, la policía provincial arrestó a Rosa. Se la llevaron vinculándola con un homicidio. La detención era ilegal por ser menor de edad, pero los motivos oficiales del arresto fueron disturbios en la vía pública. La Comisaría de la Mujer adonde fue encarcelada disimuló el incendio en la celda que acabó con su vida. La culparon a ella acusándola de prender fuego un colchón, “hubo una negligencia policial al dejar que haya ingresado con un encendedor”, dijo la ministra provincial Claudia Gauto. El Juzgado de Menores ordenó una pericia al sospechar que el incendio buscó eliminar evidencias de abuso sexual. Rosa fue detenida el 22 de diciembre de 2006, hoy la causa no tiene resolución. </br>
+      Las armas del Estado se ensangran con femicidios. Familiares, vecinos, parejas, exparejas. Matarlas por ser mujeres. Embadurnados de grotesco poder. De macho y policía a la vez. Durante 2014, La Casa del Encuentro recopiló 18 muertes perpetradas por agentes de las fuerzas de seguridad estatales atendidas por los medios de comunicación. Una cada 20 días y 6 horas. 3 cada 2 meses.
+      Prisión perpetua al policía Ernesto Fabián Casas, por asesinar de un disparo a su pareja Mariana Romero, de 15 años de edad, madre de su pequeño hijo.</br>
+      En la puerta del colegio de sus hijos en Viedma, el cabo de la policía provincial Walter Cóceres asesinó de 6 balazos a su ex esposa Yanina De Yulis, cabo primero de la misma fuerza.
+      Asesinó a su madre. Policía de Chubut hasta 2007, Gabriel Ignacio Alvores, femicida de Teresa Sofía Arias a fuerza de golpes y cuchillo.</br>
+      En Orán, Salta, Javier Rodríguez, cabo de la policía salteña, de 25 años, se suicidó creyendo haber matado a su novia, Jésica Valverdi y al amante, el cabo David Sánchez. Para Jesica la bala no fue mortal.</br>
+      Yamila Gómez de 21 años fue asesinada en Fontana, Chaco, de 50 puñaladas por Héctor Merino, cadete de la escuela de policía e hijo de policía.</br>
+      Romina Ríos fue encontrada con un disparo, calcinada, con golpes y fracturas dos días después de que su madre intentara denunciar su desaparición. “Debe estar con algún noviecito”. El policía Miguel Ortiz ya la había asesinado con su arma reglamentaria.</br>
+      Impregnado por el mismo sistema de poder patriarcal, más del setenta por ciento de las denuncias por violencia de género son desestimadas por las fuerzas de seguridad estatales. Dándole de comer a femicidas, golpeadores, violentos y a aquellos que solo por falta de puntería no son asesinos: “¿Estás segura que querés denunciarlo?”.</br>
+      “Si hacía la denuncia en una comisaría, las pericias a ella se las tenían que hacer los mismos compañeros”, cuenta la mamá de Iara Carmona. Él trabajaba en la Policía Científica. Fue pasado a disponibilidad, pero como la orden caducó y la causa no estaba en juicio, él volvió a actividades. Iara fue abusada desde los once hasta los quince años por el exmarido de su mamá, Marcelo Cuello de la bonaerense. “Este es un juego de nosotros, no se lo podés contar a nadie”. Mientras la violaba, dejaba el arma arriba de la mesa de luz y la miraba continuamente.
+    </div>
+  </div>
+</section>
+
+
+<!-- app scripts -->
+<script src="js/app.js"></script>
+
+<script src="js/modules/core/app.core.js"></script>
+<script src="js/modules/core/services/lb-services.js"></script>
+<script src="js/modules/core/controllers/MainController.js"></script>
+<script src="js/modules/core/config/cfg.js"></script>
+<script src="js/modules/core/config/routes.js"></script>
+<script src="js/modules/core/directives/navbar.js"></script>
+
+<script src="js/modules/news/app.news.js"></script>
+<script src="js/modules/news/controllers/NoticiasController.js"></script>
+<script src="js/modules/news/directives/newsblock.js"></script>
+
+<!-- endappscripts -->
+
+
+</body>
+</html>
+

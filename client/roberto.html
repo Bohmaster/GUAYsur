@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" ng-app="uai-news">
+<head>
+  <meta charset="UTF-8">
+  <title> {{ greet }} </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- styles -->
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <!-- endstyles -->
+
+  <!-- scripts -->
+  <script src="vendor/jquery/dist/jquery.js"></script>
+
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="vendor/angular-resource/angular-resource.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+  <!-- endscripts -->
+
+</head>
+<body ng-controller="MainController">
+
+<navbar></navbar>
+
+<section id="destacados">
+  <div class="container">
+    <div id="volanta" class="bold">
+      1000 y tantos
+    </div>
+    <div id="titulo">
+      Roberto Tagashira. La Cámpora.
+    </div>
+    <div id="imagen">
+      <img src="images/noticias/roberto/roberto%20grande.jpg" width="100%" alt=""/>
+    </div>
+    <div id="descripcion">
+      Roberto tiene 19 años y vive en el barrio Ciudadela de San Miguel de Tucumán. Estudia derecho y milita desde 2010.    </div>
+    <div id="cuerpo">
+      <p class="bold">-¿Cómo arrancaste la militancia?</p>
+      -Empecé militando en el colegio en el Centro de Estudiantes. Ahí supe lo que era el peronismo gracias a Néstor Kirchner y después me metí en la Juventud Justicialista Libertaria. </br></br>
+
+      <p class="bold">-¿Qué es para vos la política?</p>
+      -Es una herramienta de transformación social y, particularmente para mí, es una forma de vida. Es colaborar con el otro, cumplir los sueños personales de cada uno pero en conjunto con el sueño colectivo. </br></br>
+
+      <p class="bold">-¿Qué le dirías a los que no militan?</p>
+      -Que alguna vez se lleguen por alguna unidad básica o alguna reunión de cualquier grupo político. Que se interesen un poco sobre todo por la importancia del momento político actual de nuestro país.</br></br>
+
+      <p class="bold">-¿Por qué es importante que los jóvenes hagan política?</p>
+      -Son los jóvenes los que van a dirigir la política, las empresas, los clubes de fútbol, cuando sean adultos. Por eso es importante que los jóvenes tengan por lo menos una formación política básica y que se comprometan a ayudar al otro. </br></br>
+
+      <p class="bold">-Además de militar, ¿qué otras cosas hacés? </p>
+      -Estoy estudiando abogacía. Me gusta leer libros y no soy muy del deporte. La mitad del día la dedico al estudio y la otra mitad a la política.
+    </div>
+  </div>
+</section>
+
+
+<!-- app scripts -->
+<script src="js/app.js"></script>
+
+<script src="js/modules/core/app.core.js"></script>
+<script src="js/modules/core/services/lb-services.js"></script>
+<script src="js/modules/core/controllers/MainController.js"></script>
+<script src="js/modules/core/config/cfg.js"></script>
+<script src="js/modules/core/config/routes.js"></script>
+<script src="js/modules/core/directives/navbar.js"></script>
+
+<script src="js/modules/news/app.news.js"></script>
+<script src="js/modules/news/controllers/NoticiasController.js"></script>
+<script src="js/modules/news/directives/newsblock.js"></script>
+
+<!-- endappscripts -->
+
+
+</body>
+</html>
+

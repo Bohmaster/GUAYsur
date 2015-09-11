@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" ng-app="uai-news">
+<head>
+  <meta charset="UTF-8">
+  <title> {{ greet }} </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- styles -->
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <!-- endstyles -->
+
+  <!-- scripts -->
+  <script src="vendor/jquery/dist/jquery.js"></script>
+
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="vendor/angular-resource/angular-resource.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+  <!-- endscripts -->
+
+</head>
+<body ng-controller="MainController">
+
+<navbar></navbar>
+
+<section id="destacados">
+  <div class="container">
+    <div id="volanta" class="bold">
+      Miss Bolivia.
+    </div>
+    <div id="titulo">
+      El color, la color, los colores
+    </div>
+    <div id="imagen">
+      <img src="images/noticias/misbo/miss%20bo%20grande.jpg" width="100%" alt=""/>
+    </div>
+    <div id="descripcion">
+      En una charla corta, pero con muchas definiciones, la rapera invita a salir de la lógica blanco-negro con que muchas veces se simplifica la realidad. La despenalización del aborto, y el fin de la violencia de género, las prioridades.
+    </div>
+    <div id="cuerpo">
+      “Hay gente que capaz se quedó en las teorías de género más viejas, de guerra de los sexos”, dice Paz Ferreyra, la mujer que está bajo la piel de Miss Bolivia, cuando se le pregunta por la cuestión de género. “Ahora pasan cosas nuevas, somos complejos, gracias a Dios tenemos miles de colores intermedios. El feminismo debe ir por otro lado”, argumenta. </br></br>
+
+      <p class="bold">-¿Qué es lo femenino? ¿Qué es lo masculino? </p>
+      -Para mí es un problema mal planteado pensar en masculino y femenino. ¿Qué es lo femenino? Ya ni sé, son identidades complejas, hay pluralidad de formas, de géneros. Me parece que ya fue esto de la dicotomía binaria. ¿Hay gente que todavía piensa así? </br></br>
+
+      <p class="bold">-Es que a veces parece que el género pasa sólo por lo sexual.  </p>
+      -Sí, pero eso es muy bioligisista, es algo darwiniano, y ya pasaron 200 años. Es momento de cambiar la paleta, a una que tenga más acuarelas, no sólo dos. </br></br>
+
+      <p class="bold">-El rol de la mujer ha ido cambiando en los últimos tiem pos, y se han conseguido grandes avances en cuanto igualdad. ¿qué se consiguió y qué falta? </p>
+      -Falta sí o sí, una deuda social, una deuda inmensa y asesina: la despenalización de las prácticas de aborto. Un aborto inclusivo, gratuito y accesible. Es una deuda que tiene el Estado con toda la sociedad, una deuda jurídica, que nos incomoda porque existe y se oculta. Y en cuanto a lo que se consiguió, creo que estamos en camino, con la visibilización de los derechos de la mujer, pero todavía estamos muy muy muy atrás... </br>
+      Sigue siendo moneda corriente el femicidio, es realmente una cosa tan antigua y opresiva, de abusar el poder que se tiene: la violencia de género tiene que cesar, tiene que penalizarse más, un poco más de mano dura, por supuesto que hay que trabajar preventivamente, pero sucede y mientras tanto hay que tomar medidas más estrictas. </br></br>
+
+      <p class="bold">-¿Hay diferencia entre la piba que mueve el culo en un recital de Miss Bolivia y la que lo mueve en Showmatch? </p>
+      -En realidad, yo considero al cuerpo como una herramienta artística. El movimiento de un cuerpo está a la altura de tocar un instrumento o de cantar. Las de Showmatch son pibas que están laburando, se ganan el pan bailando... Es que el baile es una forma de expresión estética, y eso de la mujer-objeto es muy antiguo. Hay mujeres que manejan el arte del pole dance, el baile del caño, y son espectaculares. Si alguien quiere pensar que se está objetualizando, bueno, hay gente que no piensa mucho y se queda cómoda en sus visiones polarizadas: es más fácil porque no tienen que generar pensamiento complejo, se quedan en el negro y el blanco. </br></br>
+    </div>
+  </div>
+</section>
+
+
+<!-- app scripts -->
+<script src="js/app.js"></script>
+
+<script src="js/modules/core/app.core.js"></script>
+<script src="js/modules/core/services/lb-services.js"></script>
+<script src="js/modules/core/controllers/MainController.js"></script>
+<script src="js/modules/core/config/cfg.js"></script>
+<script src="js/modules/core/config/routes.js"></script>
+<script src="js/modules/core/directives/navbar.js"></script>
+
+<script src="js/modules/news/app.news.js"></script>
+<script src="js/modules/news/controllers/NoticiasController.js"></script>
+<script src="js/modules/news/directives/newsblock.js"></script>
+
+<!-- endappscripts -->
+
+
+</body>
+</html>
+

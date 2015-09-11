@@ -1,0 +1,32 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Noticia": 301,
+    "Categoria": 7,
+    "Video": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Noticia": {
+      "24": "{\"foto_principal\":\"pibesS.jpg\",\"foto_miniatura\":\"pibes.jpg\",\"imagenes\":[],\"volanta\":\"asdasda\",\"titulo\":\"dasdasdasda\",\"descripcion\":\"dsasdasdasdasda\",\"cuerpo\":\"<p>asdasdasd</p>\",\"destacada\":true,\"esVideo\":false,\"fecha\":\"2015-09-03T23:34:08.092Z\",\"categoriaId\":5,\"id\":24}",
+      "25": "{\"foto_principal\":\"diego.jpg\",\"foto_miniatura\":\"\",\"imagenes\":[],\"volanta\":\"VIdeo\",\"titulo\":\"Video\",\"descripcion\":\"dsasdasdasdasda\",\"cuerpo\":\"<p>asdasdasd</p>\",\"destacada\":false,\"esVideo\":true,\"fecha\":\"2015-09-03T23:34:43.093Z\",\"categoriaId\":5,\"id\":25}",
+      "26": "{\"foto_principal\":\"clan.jpg\",\"foto_miniatura\":\"\",\"imagenes\":[],\"volanta\":\"VIdeo\",\"titulo\":\"Video\",\"descripcion\":\"dsasdasdasdasda\",\"cuerpo\":\"<p>asdasdasd</p>\",\"destacada\":false,\"esVideo\":false,\"fecha\":\"2015-09-03T23:35:45.939Z\",\"categoriaId\":5,\"id\":26}",
+      "27": "{\"foto_principal\":\"almafuerte.jpg\",\"foto_miniatura\":\"\",\"imagenes\":[],\"volanta\":\"VIdeo\",\"titulo\":\"Video\",\"descripcion\":\"dsasdasdasdasda\",\"cuerpo\":\"<p>asdasdasd</p>\",\"destacada\":false,\"esVideo\":false,\"fecha\":\"2015-09-03T23:35:51.601Z\",\"categoriaId\":5,\"id\":27}",
+      "28": "{\"foto_principal\":\"porta.jpg\",\"foto_miniatura\":\"\",\"imagenes\":[],\"volanta\":\"VIdeo\",\"titulo\":\"Video\",\"descripcion\":\"dsasdasdasdasda\",\"cuerpo\":\"<p>asdasdasd</p>\",\"destacada\":false,\"esVideo\":false,\"fecha\":\"2015-09-03T23:35:56.130Z\",\"categoriaId\":5,\"id\":28}",
+      "300": "{\"foto_principal\":\"clan.jpg\",\"foto_miniatura\":\"\",\"imagenes\":[],\"volanta\":\"VIdeo\",\"titulo\":\"Video\",\"descripcion\":\"dsasdasdasdasda\",\"cuerpo\":\"<p>asdasdasd</p>\",\"destacada\":false,\"esVideo\":false,\"fecha\":\"2015-09-03T23:39:30.513Z\",\"id\":300,\"categoriaId\":6}"
+    },
+    "Categoria": {
+      "5": "{\"titulo\":\"Aleph\",\"descripcion\":\"\",\"id\":5}",
+      "6": "{\"titulo\":\"MDM\",\"descripcion\":\"\",\"id\":6}"
+    },
+    "Video": {}
+  }
+}
